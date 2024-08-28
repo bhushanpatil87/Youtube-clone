@@ -1,0 +1,151 @@
+
+
+.searchBar{
+    font-size: 16px;
+    height: 34px;
+    flex: 1;
+    padding-left: 12px;
+    border: 1px solid rgb(184, 175, 175);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0,0.05) ;
+    width: 0;
+}
+.searchBar::placeholder{
+    font-size: 16px;
+    font-family: Roboto, arial;
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(238, 231, 231) ;
+    z-index: 100;
+}
+.letf-section{
+    width: 150px;
+    align-items: center;
+    display: flex;
+}
+.middle-section{
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+}
+.right-section{
+    margin-right: 20px;
+    width: 190px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.yt-icon{
+    height: 20px;
+   margin-left: 24px;
+}
+.bar-icon{
+    height: 30px;
+    margin-left: 24px;
+}
+.search-button{
+    height: 34px;
+    width: 60px;
+    background-color: rgb(237, 230, 230);
+    border: 1px solid rgb(184, 175, 175);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0,0.05) ;
+    margin-left: -1px;
+    margin-right:10px ;
+    position: relative;
+}
+ 
+.search-button .tooltip, 
+.microphone-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30;
+    opacity: 0;
+    transition: opacity 0.9s;
+    pointer-events: none;
+}
+.search-button:hover .tooltip, 
+.microphone-button:hover .tooltip{
+    opacity: 1;
+    
+}
+.search-icon{
+   height: 25px;
+   padding-top:2px;
+}
+.microphone-button{
+    height: 34px;
+    width: 40px;
+    border: none;
+    border-radius: 20px; 
+    position: relative;   
+}
+
+.microphone-icon{
+    height: 24px;
+    margin-top: 2px;
+     background-color: rgb(237, 230, 230);
+}
+.button{
+    border-top-right-radius:  30px;
+    border-bottom-right-radius:  30px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.video-icon{
+    height: 34px;
+}
+.menu-icon{
+    height: 24px;
+}
+.bell-icon{
+    height: 24px;
+}
+.notification-incon-continer{
+    position: relative;
+}
+
+.notification-count{
+    position:absolute;
+    top: -2px;
+    right: 0;
+    background-color: rgb(197, 0, 0);
+    color: wheat;
+    border-radius: 10px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+}
+.profile-icon{
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+}
+
