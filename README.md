@@ -93,7 +93,11 @@ The `fonts` folder contains the fonts used in the Slidebar website. The folder i
 **Screenshots**
 -------------
 
-### [Insert screenshots of the website here]
+<img width="1893" height="852" alt="Screenshot 2025-08-15 214617" src="https://github.com/user-attachments/assets/62aca042-d606-4ce1-8662-145667907288" />
+
+
+
+<img width="1890" height="862" alt="Screenshot 2025-08-15 214639" src="https://github.com/user-attachments/assets/64f883dd-d02c-42a4-884a-7173c9d4b5e5" />
 
 **API Reference**
 ----------------
@@ -111,11 +115,7 @@ The `fonts` folder contains the fonts used in the Slidebar website. The folder i
 I hope this README.md file meets your requirements! Let me know if you have any further questions or need any additional information. 😊
 
 
-<img width="1893" height="852" alt="Screenshot 2025-08-15 214617" src="https://github.com/user-attachments/assets/62aca042-d606-4ce1-8662-145667907288" />
 
-
-
-<img width="1890" height="862" alt="Screenshot 2025-08-15 214639" src="https://github.com/user-attachments/assets/64f883dd-d02c-42a4-884a-7173c9d4b5e5" />
 
 
 
